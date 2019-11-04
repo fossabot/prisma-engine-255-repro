@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "postinstall": "prisma2 tmp-prepare",
+    "seed": "ts-node prisma/fake-data.ts",
+    "start": "ts-node prisma/script.ts"
+  },
+  "devDependencies": {
+    "prisma2": "^2.0.0-alpha.279",
+    "ts-node": "^8.3.0"
+  }
+}
