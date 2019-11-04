@@ -4,8 +4,13 @@ async function main() {
   const photon = new Photon({
     debug: {
       library: true,
+      engine: true,
     },
   })
+  await photon.connect()
+  console.log('Connected!')
+  await new Promise(r => setTimeout(r, 1000))
+  console.log('Querying...')
   const x = await photon.posts.findMany({
     select: {
       id: true,
