@@ -1,4 +1,6 @@
 # Reproduction for https://github.com/prisma/prisma-engine/issues/151
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FOBITOONDEADO1MZ%2Fprisma-engine-255-repro.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FOBITOONDEADO1MZ%2Fprisma-engine-255-repro?ref=badge_shield)
+
 
 ## Steps
 
@@ -16,3 +18,7 @@ yarn seed
 # runs prisma/scrip.ts
 yarn start
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FOBITOONDEADO1MZ%2Fprisma-engine-255-repro.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FOBITOONDEADO1MZ%2Fprisma-engine-255-repro?ref=badge_large)
